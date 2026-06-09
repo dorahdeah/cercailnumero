@@ -225,7 +225,7 @@ export default function App() {
                         style={{ gridColumn: ci + 1, gridRow: ri + 1 }}
                         className={`
                           relative flex items-center justify-center
-                          text-2xl sm:text-4xl md:text-5xl font-extrabold
+                          text-[clamp(1rem,4.5vmin,2.2rem)] font-bold
                           border border-indigo-100/40
                           print:border-gray-200 print:text-black print:text-sm
                           ${isLight ? 'bg-white' : 'bg-indigo-50/20'}
